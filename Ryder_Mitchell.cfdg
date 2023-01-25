@@ -1,0 +1,89 @@
+startshape WELCOME
+
+shape WELCOME
+{
+	MESSAGE [ hue 225 sat 0.7 b 0.6 ]
+}
+
+shape MESSAGE
+{
+	R [ x 0 ]
+	Y [ x 12 ]
+	D [ x 24 ]
+	E [ x 36 ]
+  R [x 50 ]
+}
+
+shape R
+{
+	LINE [ s 0.9 -1 y 24 ]
+  LINE [ s 0.9 ]
+  LINE [ s 0.4 r -120 y 24 ]
+  LINE [ s 0.4 x 9 r 120 y 19 ]
+  LINE [ s .7 x 0.1 r 220 y 13 ]
+}
+
+shape Y
+{
+	  LINE [ s 0.6 x 3]
+    LINE [ s 0.3 x 3 y 14 r -30]
+    LINE [ s 0.3 x 3 y 14 r 30]
+
+}
+
+shape D
+{
+	  LINE [ s 0.9 x 0]
+    LINE [ s .6 x 0 r 220 y 23 ]
+    LINE [ s .6 x 0 r -40 y 0 ]
+
+
+
+}
+
+shape E
+{
+	LINE [ s 0.9 ]
+	LINE [ s 0.9 -1 y 24 ]
+	LINE [ s 0.4 r -90 y 0 ]
+	LINE [ s 0.4 r -90 y 12 ]
+	LINE [ s 0.4 r -90 y 24 ]
+}
+
+shape LINE
+{
+	TRIANGLE [[ s 1 30 y 0.26 ]]
+	//MARK { }
+	//LINE { size 0.98 y 0.5 }
+}
+
+shape ARCL
+{
+	MARK [ ]
+	ARCL [ size 0.97 y 0.55 r 1.5 ]
+}
+
+shape MARK
+{
+	SQUARE [ ]
+}
+
+
+shape VINEL
+{
+	STEML [ ]
+	STEML [ x 1 r 5 flip 0 ]
+	VINEL [ x 2 size 0.9 r 10 ]
+}
+
+shape STEML
+{
+	GOL [ r 20 s 0.1 ]
+}
+shape GOL
+{
+	CIRCLE [ ]
+	GOL [ x 0.3 r -1 s 0.985 ]
+}
+
+
