@@ -140,10 +140,10 @@ Great responses will additionally:
 
 ## Tasks
 
-- [ ] Read the [Assignment HOWTO]
-- [ ] Read Fowler's [introduction to DSLs][fowler]
-- [ ] Find a DSL
-- [ ] Describe your DSL's implementation and semantics in `my-dsl.md`
+- [X] Read the [Assignment HOWTO]
+- [X] Read Fowler's [introduction to DSLs][fowler]
+- [X] Find a DSL
+- [X] Describe your DSL's implementation and semantics in `my-dsl.md`
 - [ ] Write a ContextFree program in `firstname_lastname.cfdg`
 - [ ] Make and save a nice picture in `firstname_lastname_variant.png`
 - [ ] Answer the questions in `context-free.md`
